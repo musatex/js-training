@@ -10,7 +10,10 @@
  */
 
 // Your code :
-
+function difference(a, b) {
+  return Math.abs(a - b);
+}
+console.log(difference(3, 5));
 //* Begin of tests
 const assert = require('assert')
 

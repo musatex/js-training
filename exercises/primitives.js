@@ -8,6 +8,17 @@
  */
 
 // Your code :
+const str = "1337";
+
+const num = 42;
+
+const bool = false
+
+const undef = undefined;
+
+
+
+
 
 
 //* Begin of tests
@@ -24,4 +35,4 @@ assert.strictEqual(bool, false)
 
 assert.strictEqual(typeof undef, 'undefined')
 assert.strictEqual(undef, undefined)
-// End of tests */
+// End of tests *//
