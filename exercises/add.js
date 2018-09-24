@@ -7,11 +7,12 @@
  */
 
 // Your code :
-var cola = 1
-var ness = 0;
-function add() {
-    return function () {cola + ness}
+
+function add(x, y){
+  return (x + y)
 }
+
+
 //* Begin of tests
 const assert = require('assert')
 const rand = Math.random()

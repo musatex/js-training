@@ -9,6 +9,23 @@
  */
 
 // Your code :
+  function multiply(x, y){
+  let result = 0;
+  let i = 0;
+  if (x === 0 || y === 0){
+    return 0;
+  }
+  if (y < 0){
+    y = -y
+    x = -x
+  }
+  while (i < y){
+    result = result + x;
+    i = i + 1}
+    return result
+  }
+
+/* merci à mathieu*/
 
 //* Begin of tests
 const assert = require('assert')

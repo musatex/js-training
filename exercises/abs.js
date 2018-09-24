@@ -10,11 +10,14 @@
  */
 
 // Your code :
-function difference(a, b) {
-  return Math.abs(a - b);
+
+
+function abs(i) {
+  if (i >= 0)
+    return (i);
+  else return (-i)
 }
-console.log(difference(3, 5));
-//* Begin of tests
+  //* Begin of tests
 const assert = require('assert')
 
 assert.strictEqual(typeof abs, 'function')
