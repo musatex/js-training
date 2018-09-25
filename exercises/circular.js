@@ -8,22 +8,11 @@
  */
 
 // Your code :
-var circular = {
+var circular = new Object(circular)
+    circular.circular = circular
+  
 
-  circular {
 
-    circular {
-
-      circular {
-
-        circular {
-
-          circular
-        }
-      }
-    }
-  }
-}
 //* Begin of tests
 const assert = require('assert')
 

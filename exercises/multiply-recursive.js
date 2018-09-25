@@ -10,7 +10,77 @@
  */
 
 // Your code :
+/*
+function multiply (x, y){
+//If the number is less than 0, reject it.
+  let i = 0;
+  let result = 0;
+  if (y < 0) {
+      return  y = -y
+              x = -x
+  }
+  // If the number is 0, its factorial is 1.
+  else if (x === 0 || y === 0) {
+      return 0;
+  }
+  // Otherwise, call this recursive procedure again.
+  else (i < y)
+      result = result + x;
+      i = i + 1;
 
+}
+*/
+function multiply(x, y){
+let result = 0;
+let i = 0;
+if (x === 0 || y === 0){
+  return 0;
+}
+if (y < 0){
+  return -multiply(x, -y);
+}
+if (y > 0)
+return x + multiply(x, y-1);
+}
+
+/*
+
+function factorial(num)
+{
+    // If the number is less than 0, reject it.
+    if (num < 0) {
+        return -1;
+    }
+    // If the number is 0, its factorial is 1.
+    else if (num == 0) {
+        return 0;
+    }
+    // Otherwise, call this recursive procedure again.
+    else {
+        return (num * factorial(num - 1));
+    }
+}
+
+var result = factorial(8);
+
+
+
+
+function multiply(x, y){
+let result = 0;
+let i = 0;
+if (x === 0 || y === 0){
+  return 0;
+}
+if (y < 0){
+  y = -y
+  x = -x
+}
+while (i < y){
+  result = result + x;
+  i = i + 1}
+  return result
+}*/
 //* Begin of tests
 const assert = require('assert')
 
